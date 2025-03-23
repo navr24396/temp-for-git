@@ -1,0 +1,605 @@
+- NextToken: UFQCQUFBQUFBRUNBZ0I0SXlQZUFsOUhqK3V3NUlpR3NYaHloREF0NCtBcUJtQnRQNysvT1A2ajM2UUJBUjNWazM0czJaK3daNkdXeW03N1NRQUFBU1F3Z2dFZ0Jna3Foa2lHOXcwQkJ3YWdnZ0VSTUlJQkRRSUJBRENDQVFZR0NTcUdTSWIzRFFFSEFUQWVCZ2xnaGtnQlpRTUVBUzR3RVFRTWo3NzJlamI4ZUgzb0hvdFZBZ0VRZ0lIWUhlbDFreWVXTklHWFd0RXYxSmp6SFd4dENkY25FdFBEWU5uVXFvaUFHdkRVUnZaK285MW9wek0vY1Z6dm03Z0ptZHRPSDgwcjk0Qlc4VytxMDZyU3ZTeStaUW8xLzlJSzJnRWFhdTNEaWdhalNUcjlBcUcyRkFrdThSdXZJR05Vd1dNLzZHeHhYUWc0ZW9TNFVrdzc1M3NBUGtkM3ZYdXBiUHBrYXZucVM4Nit5U2FQNU9Tek44QnJ6M05BNDNEcE80SDFZd1hleGw3UFdtUlFIejVzbFVPcC9lK0M0OWpVRWdzcGdTeDB2R1NKeU5YTXQwUEppSmlrUThCK2hwZ3dWYmVkeDhIZ2QwYkFSNWcwRzFRZExZMnY1NEVVNHlLQQ==
+  Services:
+  - ServiceCode: AWSCloudMap
+    ServiceName: AWS Cloud Map
+  - ServiceCode: access-analyzer
+    ServiceName: Access Analyzer
+  - ServiceCode: account
+    ServiceName: AWS Account Management
+  - ServiceCode: acm
+    ServiceName: AWS Certificate Manager (ACM)
+  - ServiceCode: acm-pca
+    ServiceName: AWS Private Certificate Authority
+  - ServiceCode: airflow
+    ServiceName: Amazon Managed Workflows for Apache Airflow
+  - ServiceCode: amplify
+    ServiceName: AWS Amplify
+  - ServiceCode: amplifyuibuilder
+    ServiceName: Amplify UI Builder
+  - ServiceCode: aoss
+    ServiceName: Amazon OpenSearch Serverless
+  - ServiceCode: apigateway
+    ServiceName: Amazon API Gateway
+  - ServiceCode: app-integrations
+    ServiceName: Amazon Connect Application Integrations
+  - ServiceCode: appconfig
+    ServiceName: AWS AppConfig
+  - ServiceCode: appfabric
+    ServiceName: AWS AppFabric
+  - ServiceCode: appflow
+    ServiceName: Amazon AppFlow
+  - ServiceCode: application-autoscaling
+    ServiceName: Application Auto Scaling
+  - ServiceCode: application-cost-profiler
+    ServiceName: AWS Application Cost Profiler
+  - ServiceCode: application-signals
+    ServiceName: Amazon CloudWatch Application Signals
+  - ServiceCode: appmesh
+    ServiceName: AWS App Mesh
+  - ServiceCode: apprunner
+    ServiceName: AWS App Runner
+  - ServiceCode: appstream2
+    ServiceName: Amazon AppStream 2.0
+- NextToken: UFQCQUFBQUFBRUNBZ0I0SXlQZUFsOUhqK3V3NUlpR3NYaHloREF0NCtBcUJtQnRQNysvT1A2ajM2UUJZY3lEOWhjQVFWY2VrazlyV01BRk1RQUFBU1F3Z2dFZ0Jna3Foa2lHOXcwQkJ3YWdnZ0VSTUlJQkRRSUJBRENDQVFZR0NTcUdTSWIzRFFFSEFUQWVCZ2xnaGtnQlpRTUVBUzR3RVFRTW5EWGZmK3lzYzRKSHJ6K0FBZ0VRZ0lIWUFhSnFMZHZLNnVyckk5d2JyNUdNbFpqUEI2OWdJTWxvUDcyNGh1UjlJbytvM1B4dGgybmNndmV4ZjBTYkNVNXF0S0pPVTVsQU9ZMGFHZTd2V3FkaklQdENnVWNOOWtudExEVlIvOHV1RTIzZGFPNWM5NFM5dERxR3piSzMxM3V3N29UWUVGejA3MUI1VStPVzRjdDdtVFcyYkdrNTFJaG5tYnZvd1Y4ZkkwNXZVbkNrWkxJT1pBaW0yRkV5QmQ3RE5XaWZuUmt1bTlNMklwR0lRd1dEdU0zd09Mb3djbXpkbmwzMDA2SU83a0ZoYXY4NmJlV0RVNXFGVWVrWUF1ZjRqL0gvczZ3QmJvampObTBLMXVzcUFzeWN0Ymt5ZFM4ZA==
+  Services:
+  - ServiceCode: appsync
+    ServiceName: AWS AppSync
+  - ServiceCode: apptest
+    ServiceName: AWS Mainframe Modernization Application Testing
+  - ServiceCode: aps
+    ServiceName: Amazon Managed Prometheus
+  - ServiceCode: athena
+    ServiceName: Amazon Athena
+  - ServiceCode: auditmanager
+    ServiceName: AWS Audit Manager
+  - ServiceCode: autoscaling
+    ServiceName: Amazon EC2 Auto Scaling
+  - ServiceCode: autoscaling-plans
+    ServiceName: AWS Auto Scaling Plans
+  - ServiceCode: aws-marketplace
+    ServiceName: AWS Marketplace
+  - ServiceCode: b2bi
+    ServiceName: B2B Data Interchange
+  - ServiceCode: backup
+    ServiceName: AWS Backup
+  - ServiceCode: batch
+    ServiceName: AWS Batch
+  - ServiceCode: bcm-data-exports
+    ServiceName: AWS Billing And Cost Management Data Exports
+  - ServiceCode: bcm-pricing-calculator
+    ServiceName: AWS Pricing Calculator
+  - ServiceCode: bedrock
+    ServiceName: Amazon Bedrock
+  - ServiceCode: billing
+    ServiceName: AWS Billing View Service
+  - ServiceCode: billingconductor
+    ServiceName: AWS Billing Conductor
+  - ServiceCode: braket
+    ServiceName: Amazon Braket
+  - ServiceCode: bugbust
+    ServiceName: AWS Bugbust
+  - ServiceCode: cases
+    ServiceName: Amazon Connect Cases
+  - ServiceCode: cassandra
+    ServiceName: Amazon Keyspaces (for Apache Cassandra)
+- NextToken: UFQCQUFBQUFBRUNBZ0I0SXlQZUFsOUhqK3V3NUlpR3NYaHloREF0NCtBcUJtQnRQNysvT1A2ajM2UUJxSzA3bC9HbGtaNjloNFlHNzVzc21BQUFBU1V3Z2dFaEJna3Foa2lHOXcwQkJ3YWdnZ0VTTUlJQkRnSUJBRENDQVFjR0NTcUdTSWIzRFFFSEFUQWVCZ2xnaGtnQlpRTUVBUzR3RVFRTWVHZ3JxaUF4Yk5rSjEybjZBZ0VRZ0lIWjN6d25mcnp6bHV4QVd2K1R4WXd0Qjc2bHFOOVRsSEE5N1l3S0s1WFQ5SDVlUWprakxPbmlhbmJHZm83WmxhdlZxQUN1ck0vM04vWG1xZWRJU2hWQUxaNkh1c0xCU2hXcDJNVWpwYlJpOHdJdm1wVEZuVEtrK3RZK2M5S3FTMFFhdFlyZkl3UkI5OHlkZ2dJSGZLU3M4WUdpVi9Ec1R1bTI3YU1UekJ0NHM0RzQxVFVEeFNKZ3Y4QUpvdFQvTkZLZ2FoS01Vc1B4Sko2eWlYREpKUHUzdWl4L01IbkVhSE5mUDgzQzkyZ2ppZzRqakhPYWkxU25mTE4zUWJXc080Z2RyTmhEYjdYWEJGZXV4MkowZUJoUEZ5UlAzTjlxeG5RczJBPT0=
+  Services:
+  - ServiceCode: ce
+    ServiceName: AWS Cost Explorer
+  - ServiceCode: chatbot
+    ServiceName: AWS Chatbot
+  - ServiceCode: chime
+    ServiceName: Amazon Chime
+  - ServiceCode: cleanrooms
+    ServiceName: AWS Clean Rooms
+  - ServiceCode: cleanrooms-ml
+    ServiceName: AWS Clean Rooms ML
+  - ServiceCode: cloud9
+    ServiceName: AWS Cloud9
+  - ServiceCode: cloudformation
+    ServiceName: AWS CloudFormation
+  - ServiceCode: cloudfront
+    ServiceName: Amazon CloudFront
+  - ServiceCode: cloudhsm
+    ServiceName: AWS CloudHSM
+  - ServiceCode: cloudshell
+    ServiceName: AWS CloudShell
+  - ServiceCode: cloudtrail
+    ServiceName: AWS CloudTrail
+  - ServiceCode: codeartifact
+    ServiceName: AWS CodeArtifact
+  - ServiceCode: codebuild
+    ServiceName: AWS CodeBuild
+  - ServiceCode: codecommit
+    ServiceName: AWS CodeCommit
+  - ServiceCode: codedeploy
+    ServiceName: AWS CodeDeploy
+  - ServiceCode: codeguru-profiler
+    ServiceName: Amazon CodeGuru Profiler
+  - ServiceCode: codeguru-reviewer
+    ServiceName: Amazon CodeGuru Reviewer
+  - ServiceCode: codepipeline
+    ServiceName: AWS CodePipeline
+  - ServiceCode: cognito-identity
+    ServiceName: Amazon Cognito Federated Identities
+  - ServiceCode: cognito-idp
+    ServiceName: Amazon Cognito User Pools
+- NextToken: UFQCQUFBQUFBRUNBZ0I0SXlQZUFsOUhqK3V3NUlpR3NYaHloREF0NCtBcUJtQnRQNysvT1A2ajM2UUIrZkJMMnNJZTByaTBoMVRmanBZZXNRQUFBU1F3Z2dFZ0Jna3Foa2lHOXcwQkJ3YWdnZ0VSTUlJQkRRSUJBRENDQVFZR0NTcUdTSWIzRFFFSEFUQWVCZ2xnaGtnQlpRTUVBUzR3RVFRTUVPZ2gxTGR0RGIzM1ZZUWtBZ0VRZ0lIWU81VXFEL2t0RW9UR0U1MG9RbE5vb3JTVlQ1MC8xejdFSzlzeE9zaitocW9XTjhBNFlQNHJxZjI4VHkrVitYVTJXZ3luOWwrNjVuZkVPL0hFZFJOeElERnRKbm5SUmUybmxTSnpjZjl0NUVOUHhhajVzeDkwelUzdVhZK0VVLzk1RjhTU2p0aG5sYlhiZmZacjBLS1RnK0F3VW5ad045Nk5NVkY3V05VMDF2OEVEdFZxOCtxNmZqVWR6T0hrME5YZEhkS1RwZHVlN01Mbm5qdk51L25IMkl5a3J1UXJ1RGlnek02TmNQaXYrb2Q0L24xNUJUTTlBQVYzOFY3VTF1QlhCVnoyVjVLOW9wa1AvVHRLY2YyS0lOdDMxTnp2Q3Z6Sg==
+  Services:
+  - ServiceCode: cognito-sync
+    ServiceName: Amazon Cognito Sync
+  - ServiceCode: comprehend
+    ServiceName: Amazon Comprehend
+  - ServiceCode: comprehendmedical
+    ServiceName: Amazon Comprehend Medical
+  - ServiceCode: compute-optimizer
+    ServiceName: AWS Compute Optimizer
+  - ServiceCode: config
+    ServiceName: AWS Config
+  - ServiceCode: connect
+    ServiceName: Amazon Connect
+  - ServiceCode: connect-campaigns
+    ServiceName: Amazon Connect outbound campaigns
+  - ServiceCode: controltower
+    ServiceName: AWS Control Tower
+  - ServiceCode: cost-optimization-hub
+    ServiceName: AWS Cost Optimization Hub
+  - ServiceCode: crowdscale-usagelimitservice
+    ServiceName: Mechanical Turk
+  - ServiceCode: databrew
+    ServiceName: AWS Glue DataBrew
+  - ServiceCode: dataexchange
+    ServiceName: AWS Data Exchange
+  - ServiceCode: datapipeline
+    ServiceName: AWS Data Pipeline
+  - ServiceCode: datasync
+    ServiceName: AWS DataSync
+  - ServiceCode: datazone
+    ServiceName: Amazon DataZone
+  - ServiceCode: dax
+    ServiceName: Amazon DynamoDB Accelerator (DAX)
+  - ServiceCode: deadline
+    ServiceName: AWS Deadline Cloud
+  - ServiceCode: deepracer
+    ServiceName: AWS DeepRacer
+  - ServiceCode: directconnect
+    ServiceName: AWS Direct Connect
+  - ServiceCode: discovery
+    ServiceName: AWS Application Discovery Service
+- NextToken: UFQCQUFBQUFBRUNBZ0I0SXlQZUFsOUhqK3V3NUlpR3NYaHloREF0NCtBcUJtQnRQNysvT1A2ajM2UUIvblpldXIyT2FaTkppT002anMwV2J3QUFBU3N3Z2dFbkJna3Foa2lHOXcwQkJ3YWdnZ0VZTUlJQkZBSUJBRENDQVEwR0NTcUdTSWIzRFFFSEFUQWVCZ2xnaGtnQlpRTUVBUzR3RVFRTXFwd21DR1NpbXgzMUpFbkFBZ0VRZ0lIZi9vZVRXTlBlOVBVSWNXendhQ1d4TjFJMHlWUmF6RVovQzcvY2tPaVdLOFp2dWoxUEZBem9lb0pGVDB4ak01citWdktDVHM2eXFkN1d3M0VIWG1id2Q5SjBIVkVSRzJDck5ETFZoS1ZDU2ZnSUt4MlBPT3BqMkNzUHhhdEF2d1lFREtnMXpwT3lwQUJQdXAzSmE3R2d3STkyWEtpY2kxYnZBVHIvSmZvOU1QeFp5Rmg0UHhzYXgvNVlPTWVFcDN3a2YwTkJqdkFtcUxwOTNLN2Roam52cTM4ODVQK1kwVW56c1gzOUlPNDljL2pIVmdZUEVreFU3QUlYTk92QTdhaEw1OWtCbHVRa1RJOW9ibnhzSHdFZXhVNzNKVWR2ZmJmaFhqZTBjb1laaWc9PQ==
+  Services:
+  - ServiceCode: dlm
+    ServiceName: Amazon Data Lifecycle Manager
+  - ServiceCode: dms
+    ServiceName: AWS Database Migration Service (AWS DMS)
+  - ServiceCode: docdb
+    ServiceName: Amazon DocumentDB (with MongoDB compatibility)
+  - ServiceCode: docdb-elastic
+    ServiceName: Amazon DocumentDB Elastic Clusters
+  - ServiceCode: drs
+    ServiceName: ElasticDisasterRecovery
+  - ServiceCode: ds
+    ServiceName: AWS Directory Service
+  - ServiceCode: dynamodb
+    ServiceName: Amazon DynamoDB
+  - ServiceCode: ebs
+    ServiceName: Amazon Elastic Block Store (Amazon EBS)
+  - ServiceCode: ec2
+    ServiceName: Amazon Elastic Compute Cloud (Amazon EC2)
+  - ServiceCode: ec2-ipam
+    ServiceName: IPAM
+  - ServiceCode: ec2fastlaunch
+    ServiceName: EC2 Fast Launch
+  - ServiceCode: ecr
+    ServiceName: Amazon Elastic Container Registry (Amazon ECR)
+  - ServiceCode: ecr-public
+    ServiceName: Amazon Elastic Container Registry Public (Amazon ECR Public)
+  - ServiceCode: ecs
+    ServiceName: Amazon Elastic Container Service (Amazon ECS)
+  - ServiceCode: eks
+    ServiceName: Amazon Elastic Kubernetes Service (Amazon EKS)
+  - ServiceCode: elastic-inference
+    ServiceName: Amazon Elastic Inference
+  - ServiceCode: elasticache
+    ServiceName: Amazon ElastiCache
+  - ServiceCode: elasticbeanstalk
+    ServiceName: AWS Elastic Beanstalk
+  - ServiceCode: elasticfilesystem
+    ServiceName: Amazon Elastic File System (EFS)
+  - ServiceCode: elasticloadbalancing
+    ServiceName: Elastic Load Balancing (ELB)
+- NextToken: UFQCQUFBQUFBRUNBZ0I0SXlQZUFsOUhqK3V3NUlpR3NYaHloREF0NCtBcUJtQnRQNysvT1A2ajM2UUJ5UWRTaWFJOERYZitqd1FCeVkvMDdRQUFBU0V3Z2dFZEJna3Foa2lHOXcwQkJ3YWdnZ0VPTUlJQkNnSUJBRENDQVFNR0NTcUdTSWIzRFFFSEFUQWVCZ2xnaGtnQlpRTUVBUzR3RVFRTTAzLzZXRS9saWVvYnRzU3lBZ0VRZ0lIVlVTMnZaVFR0NllNemRQZkxJN05hamFBdEMva3BPVWlIbkJreHYweGk3dnN6MUl3Nkd6aC9tL2RLcnFGT0FJcHl0cEp3TEFPbTVPbEg1c2tEUDNkaXFUczVwZmJRVDNTZEU3NVhmc0dmYng3bStBVm1KemR1MmpNUXlqOW9HQzB3K3E5SzBpdEFMci94M0k4Ty9VY2ZKS2dBZmk1elUxSU9ZcWRuMUlWeU5KYzJRazVzVDJRNW5Pdkg2bzZNOWRBdlJVcmZtRkVGbUtURnBIdUpBd0dhT0xQZ3VvVzB6b0ZlYllJVkl4K0pRVUZjZFRDNWhxQlNzeDh6dmlTWm9BWlJYbUNTTUwxZ1BsVDI2dTRUcHdRNS9IdU1seHZP
+  Services:
+  - ServiceCode: elasticmapreduce
+    ServiceName: Amazon EMR
+  - ServiceCode: elastictranscoder
+    ServiceName: Amazon Elastic Transcoder
+  - ServiceCode: emr-serverless
+    ServiceName: Amazon EMR Serverless
+  - ServiceCode: entityresolution
+    ServiceName: AWS Entity Resolution
+  - ServiceCode: es
+    ServiceName: Amazon OpenSearch Service
+  - ServiceCode: events
+    ServiceName: Amazon EventBridge (CloudWatch Events)
+  - ServiceCode: evidently
+    ServiceName: Amazon CloudWatch Evidently
+  - ServiceCode: fargate
+    ServiceName: AWS Fargate
+  - ServiceCode: finspace
+    ServiceName: Amazon FinSpace
+  - ServiceCode: firehose
+    ServiceName: Amazon Kinesis Data Firehose
+  - ServiceCode: fis
+    ServiceName: AWS Fault Injection Service (FIS)
+  - ServiceCode: fms
+    ServiceName: AWS Firewall Manager
+  - ServiceCode: forecast
+    ServiceName: Amazon Forecast
+  - ServiceCode: frauddetector
+    ServiceName: Amazon Fraud Detector
+  - ServiceCode: fsx
+    ServiceName: Amazon FSx
+  - ServiceCode: gamelift
+    ServiceName: Amazon GameLift Servers
+  - ServiceCode: geo
+    ServiceName: Amazon Location Service (Amazon Location)
+  - ServiceCode: glacier
+    ServiceName: Amazon Glacier
+  - ServiceCode: globalaccelerator
+    ServiceName: AWS Global Accelerator
+  - ServiceCode: glue
+    ServiceName: AWS Glue
+- NextToken: UFQCQUFBQUFBRUNBZ0I0SXlQZUFsOUhqK3V3NUlpR3NYaHloREF0NCtBcUJtQnRQNysvT1A2ajM2UUJPSTlWb3Y4R21RcWFPdHc1bmk2b2ZnQUFBU1l3Z2dFaUJna3Foa2lHOXcwQkJ3YWdnZ0VUTUlJQkR3SUJBRENDQVFnR0NTcUdTSWIzRFFFSEFUQWVCZ2xnaGtnQlpRTUVBUzR3RVFRTWJyY2hrdTBHYnRtb0xZZW9BZ0VRZ0lIYXkvWlovUnZkb2N1L1YwcitsUXpUZ1F0K3RLbDNRdlROT3Q1SjQvZGREWmRHMEJSZDBWR2JUTXFWaExmNXVVREJ3MDByZkYrSFhkZ3dsSkltLzE2SUxTQkR3OHZObmdHRUpyY3NSc3JtazV0NHVBLzJPNU96M3YrTXdNeEVvc3gvLytMQ2hTOUF4cHNHU2JKOEliL2UyRmVZb3VEVm9QMmx6VTIzeTVzRXU2ZWNFMXZzT2FGVyszZ3RKaTBVRythUXpHckxhZ0V1aXlLSXJqT1BvNTBYTkd2ZkxNZVBUdHdIUWg5b2MwbjRoWFIwN25ObzgzQWdOcVpUcnVRdUxOcmw5NVh6VTBhQnFNS1ZkMHpQejlaSnkrNEt1VSt1cWdzaGxiND0=
+  Services:
+  - ServiceCode: grafana
+    ServiceName: Amazon Managed Grafana
+  - ServiceCode: greengrass
+    ServiceName: AWS IoT Greengrass
+  - ServiceCode: groundstation
+    ServiceName: AWS Ground Station
+  - ServiceCode: guardduty
+    ServiceName: Amazon GuardDuty
+  - ServiceCode: healthlake
+    ServiceName: AWS HealthLake
+  - ServiceCode: iam
+    ServiceName: AWS Identity and Access Management (IAM)
+  - ServiceCode: imagebuilder
+    ServiceName: EC2 Image Builder
+  - ServiceCode: inspector
+    ServiceName: Amazon Inspector Classic
+  - ServiceCode: inspector2
+    ServiceName: Amazon Inspector
+  - ServiceCode: internetmonitor
+    ServiceName: CloudWatch Internet Monitor
+  - ServiceCode: iot
+    ServiceName: AWS IoT
+  - ServiceCode: iot1click
+    ServiceName: AWS IoT 1-Click
+  - ServiceCode: iotanalytics
+    ServiceName: AWS IoT Analytics
+  - ServiceCode: iotcore
+    ServiceName: AWS IoT Core
+  - ServiceCode: iotdeviceadvisor
+    ServiceName: AWS IoT Core Device Advisor
+  - ServiceCode: iotevents
+    ServiceName: AWS IoT Events
+  - ServiceCode: iotfleethub
+    ServiceName: AWS IoT Fleet Hub
+  - ServiceCode: iotfleetwise
+    ServiceName: AWS IoT FleetWise
+  - ServiceCode: iotsitewise
+    ServiceName: AWS IoT SiteWise
+  - ServiceCode: iotthingsgraph
+    ServiceName: AWS IoT Things Graph
+- NextToken: UFQCQUFBQUFBRUNBZ0I0SXlQZUFsOUhqK3V3NUlpR3NYaHloREF0NCtBcUJtQnRQNysvT1A2ajM2UUJmQXRQcGZReXNWU3RWMnY5VmtEbDNRQUFBU1F3Z2dFZ0Jna3Foa2lHOXcwQkJ3YWdnZ0VSTUlJQkRRSUJBRENDQVFZR0NTcUdTSWIzRFFFSEFUQWVCZ2xnaGtnQlpRTUVBUzR3RVFRTVg2RjNRT3dOamp3cHZvT2hBZ0VRZ0lIWTJWUzVUQlJvanRaVmxSaTRHYjNKZ2N4YmZrMjFWTGhJQTJ3NDZUUGxnZThRUlpMRFFKUWJ4WENZdWJrWTVqMnphbklyRVI5cHhhS3ljMEtWSnk5MEloWVhhWmVQOENOUXJKTTRRUEptZjlzR2h4TVVzRmhMZ0psWXFCemtxcEVYRmVqODNKZmVzQThkQnBPekcxUUcwQ1BBdmtyZUl0WFJoY3ZMYUJ6YVVaT1pOd0VzZVo0WVRBZzh0bUV4cm1Renp3UjRJdDFMWnhxVlJ6SU5PT1VpWHdWZ2dEZjZDeVNKVG9ac0VzaHlQdCtRdFdxUUpTcGxNMGN0UFBwcVp3YUcvZkwxNzQ3OTBiK2c3aEVXKy9XM1V2Lzg3V0piSHVHVA==
+  Services:
+  - ServiceCode: iottwinmaker
+    ServiceName: AWS IoT TwinMaker
+  - ServiceCode: iotwireless
+    ServiceName: AWS IoT Wireless
+  - ServiceCode: ivs
+    ServiceName: Amazon Interactive Video Service
+  - ServiceCode: ivschat
+    ServiceName: Amazon Interactive Video Service Chat
+  - ServiceCode: kafka
+    ServiceName: Amazon Managed Streaming for Kafka (MSK)
+  - ServiceCode: kafkaconnect
+    ServiceName: Managed Streaming for Kafka Connect
+  - ServiceCode: kendra
+    ServiceName: Amazon Kendra
+  - ServiceCode: kendra-ranking
+    ServiceName: Amazon Kendra Intelligent Ranking
+  - ServiceCode: kinesis
+    ServiceName: Amazon Kinesis Data Streams
+  - ServiceCode: kinesisanalytics
+    ServiceName: Amazon Managed Service for Apache Flink
+  - ServiceCode: kinesisvideo
+    ServiceName: Amazon Kinesis Video Streams
+  - ServiceCode: kms
+    ServiceName: AWS Key Management Service (AWS KMS)
+  - ServiceCode: lakeformation
+    ServiceName: AWS Lake Formation
+  - ServiceCode: lambda
+    ServiceName: AWS Lambda
+  - ServiceCode: launchwizard
+    ServiceName: AWS Launch Wizard
+  - ServiceCode: lex
+    ServiceName: Amazon Lex
+  - ServiceCode: license-manager
+    ServiceName: AWS License Manager
+  - ServiceCode: license-manager-linux-subscriptions
+    ServiceName: AWS License Manager Linux Subscriptions
+  - ServiceCode: license-manager-user-subscriptions
+    ServiceName: AWS License Manager User Subscriptions
+  - ServiceCode: lightsail
+    ServiceName: Amazon Lightsail
+- NextToken: UFQCQUFBQUFBRUNBZ0I0SXlQZUFsOUhqK3V3NUlpR3NYaHloREF0NCtBcUJtQnRQNysvT1A2ajM2UUJueUJPSlZ0bjAyL3hVcEdLTSs1czlRQUFBU0V3Z2dFZEJna3Foa2lHOXcwQkJ3YWdnZ0VPTUlJQkNnSUJBRENDQVFNR0NTcUdTSWIzRFFFSEFUQWVCZ2xnaGtnQlpRTUVBUzR3RVFRTURia0RJQ1llS2M0YXl4UGhBZ0VRZ0lIVjV5OVV4cW5NVjVEWGM2cWZ6Qlp2ZHVvb1RvM20rdzB3RUdQcTdpakRleERVVnVUM3hiazdRdDEzUEEra21aVk55SVM5bnlwOEpYOHd1QVk0Y0xyMFRKZjVWTUFiYVEyNlN5VWVvTkgvdG1EWHFHQjFIeFN3Mlo5aEFCSkIveUFWdGZsa1hINEVobHlYbmVpSm9XNDNwRCtjMjhqL3ZuRng1NThvd2U1TWJqZHU4eTFtTTNnMUJoU25mQm9uWVI4VHJpVXVMZzJHaG9RcDcwWG9QR1VYeVJ1dHFsK2VOeG93MTlwZDFvSmM3OTFrNnVmdE5xczBiQVp5M3RBL2dIZzBHLy9mejdSclltVFdyZ1c0U3Ric1J1cENjZ0hZ
+  Services:
+  - ServiceCode: logs
+    ServiceName: Amazon CloudWatch Logs
+  - ServiceCode: lookoutequipment
+    ServiceName: Amazon Lookout for Equipment
+  - ServiceCode: lookoutmetrics
+    ServiceName: Amazon Lookout for Metrics
+  - ServiceCode: lookoutvision
+    ServiceName: Amazon Lookout for Vision
+  - ServiceCode: m2
+    ServiceName: AWS Mainframe Modernization
+  - ServiceCode: machinelearning
+    ServiceName: Amazon Machine Learning
+  - ServiceCode: macie2
+    ServiceName: Amazon Macie
+  - ServiceCode: managedblockchain
+    ServiceName: Amazon Managed Blockchain
+  - ServiceCode: managedblockchain-query
+    ServiceName: Amazon Managed Blockchain Query
+  - ServiceCode: mediaconnect
+    ServiceName: AWS Elemental MediaConnect
+  - ServiceCode: mediaconvert
+    ServiceName: AWS Elemental MediaConvert
+  - ServiceCode: medialive
+    ServiceName: AWS Elemental MediaLive
+  - ServiceCode: mediapackage
+    ServiceName: AWS Elemental MediaPackage
+  - ServiceCode: mediapackagev2
+    ServiceName: AWS Elemental MediaPackage v2
+  - ServiceCode: mediastore
+    ServiceName: AWS Elemental MediaStore
+  - ServiceCode: mediatailor
+    ServiceName: AWS Elemental MediaTailor
+  - ServiceCode: medical-imaging
+    ServiceName: AWS Health Imaging
+  - ServiceCode: memorydb
+    ServiceName: Amazon MemoryDB
+  - ServiceCode: mgh
+    ServiceName: AWS Migration Hub Journeys
+  - ServiceCode: mgn
+    ServiceName: Application Migration
+- NextToken: UFQCQUFBQUFBRUNBZ0I0SXlQZUFsOUhqK3V3NUlpR3NYaHloREF0NCtBcUJtQnRQNysvT1A2ajM2UUJUK0hlS25QN1gvRWxHNWFqSk5aS0lBQUFBU0l3Z2dFZUJna3Foa2lHOXcwQkJ3YWdnZ0VQTUlJQkN3SUJBRENDQVFRR0NTcUdTSWIzRFFFSEFUQWVCZ2xnaGtnQlpRTUVBUzR3RVFRTWEvMFlVSC9ZZ05yVHFocUxBZ0VRZ0lIVzhBWi9KMGtsUXhmcXoyRVhmZEt6ZEM1MUJscVJnODRhdGFTR2xtMnZ1c292U1N1TFdqamFnSkZkWUpHTC9ZOUVMS0NMUEh2SnhrdlQxaENPb01SRlNLN3pMTzBLUy9zSzgybHpPNjBNZEViNXdORnZDOERQM2pJNWl2Y01CRmdjVThHUHFnNFRnQXFLRzYvK1RlNG1sUEpkakhCQjJEWUU5cmpCSWxYd3hVdExvNTJuQnpEM1BOcFltSVNYRjRncUlGUHROcTlaMDJBaGZXeCswcnI4L3oxekdhM0tmYTYxcTNiMkpjTkJma2xGMG54U3QvSzJkZTNTUlREeXMzU3I0UTlUSm9Ob0VWd01aa2M3a1o5M3BDZkpOVTNaQWc9PQ==
+  Services:
+  - ServiceCode: migrationhuborchestrator
+    ServiceName: Migration Hub Orchestrator
+  - ServiceCode: migrationhubstrategy
+    ServiceName: Migration Hub Strategy Recommendations
+  - ServiceCode: monitoring
+    ServiceName: Amazon CloudWatch
+  - ServiceCode: monitron
+    ServiceName: Amazon Monitron
+  - ServiceCode: mq
+    ServiceName: Amazon MQ
+  - ServiceCode: neptune
+    ServiceName: Amazon Neptune
+  - ServiceCode: neptune-graph
+    ServiceName: Amazon Neptune Analytics
+  - ServiceCode: network-firewall
+    ServiceName: AWS Network Firewall
+  - ServiceCode: networkinsights
+    ServiceName: Network Insights
+  - ServiceCode: networkmanager
+    ServiceName: AWS Cloud WAN
+  - ServiceCode: networkmonitor
+    ServiceName: Amazon CloudWatch Network Monitor
+  - ServiceCode: notifications
+    ServiceName: AWS User Notifications
+  - ServiceCode: oam
+    ServiceName: Amazon CloudWatch Observability Access Manager
+  - ServiceCode: omics
+    ServiceName: AWS HealthOmics
+  - ServiceCode: opensearch
+    ServiceName: OpenSearch Application
+  - ServiceCode: opsworks
+    ServiceName: AWS OpsWorks Stacks
+  - ServiceCode: opsworks-cm
+    ServiceName: AWS OpsWorks for Chef Automate and AWS OpsWorks for Puppet Enterprise
+  - ServiceCode: organizations
+    ServiceName: AWS Organizations
+  - ServiceCode: outposts
+    ServiceName: AWS Outposts
+  - ServiceCode: panorama
+    ServiceName: AWS Panorama
+- NextToken: UFQCQUFBQUFBRUNBZ0I0SXlQZUFsOUhqK3V3NUlpR3NYaHloREF0NCtBcUJtQnRQNysvT1A2ajM2UUJZaVgzWnBETitmbXJoQ2R2TzlpN1ZBQUFBU2d3Z2dFa0Jna3Foa2lHOXcwQkJ3YWdnZ0VWTUlJQkVRSUJBRENDQVFvR0NTcUdTSWIzRFFFSEFUQWVCZ2xnaGtnQlpRTUVBUzR3RVFRTVNoOU1ScE5xODV1b3V6bThBZ0VRZ0lIYzl6bVVoUmIvSnVmeU16OVVZbzltRGtrNUE3QWJmVWpNM01yNmoyT2ZvS2R0TzVKeE9pNUd5K096eUlabExpTUx4TVdBeitDVis5VUpkTGdMT1EvNHhuSkZ6VG0rclVoSkdPRTVWbFNTT1ZTRUdrRzNwemRNZFBZYjB5MnJzUGxnMHNGb3dnVUZiM2VZVnpSZDkvRnRCdWdoVmZLSlU0clFJZ0l4ZmlveXRkUCtuZGRjd0NyVzNZdE9oZUlnQ1o0UmZFMzNqdDVYdTVReWhNSG45Q0dwUGo4WHpuczcyQ3R3bDZuNkVXQk1lS3psQXBtVUpNUStoZnFVMkJTaUVTbEQzM0E3bkVhREx6TE9XOElVVWJ5NVdNelBZUytTMEttWjVlaXFidz09
+  Services:
+  - ServiceCode: partnercentral
+    ServiceName: AWS Partner Central (partnercentral-selling)
+  - ServiceCode: payment-cryptography
+    ServiceName: AWS Payment Cryptography
+  - ServiceCode: pca-connector-ad
+    ServiceName: Private CA Connector for Active Directory
+  - ServiceCode: pca-connector-scep
+    ServiceName: Private CA Connector for Simple Certificate Enrollment Protocol
+  - ServiceCode: pcs
+    ServiceName: AWS Parallel Computing Service
+  - ServiceCode: personalize
+    ServiceName: Amazon Personalize
+  - ServiceCode: pinpoint
+    ServiceName: Amazon Pinpoint
+  - ServiceCode: polly
+    ServiceName: Amazon Polly
+  - ServiceCode: private-networks
+    ServiceName: AWS Private 5G
+  - ServiceCode: profile
+    ServiceName: Amazon Connect Customer Profiles
+  - ServiceCode: proton
+    ServiceName: AWS Proton
+  - ServiceCode: qapps
+    ServiceName: Amazon Q Apps
+  - ServiceCode: qbusiness
+    ServiceName: Amazon Q
+  - ServiceCode: qldb
+    ServiceName: Amazon QLDB
+  - ServiceCode: quicksight
+    ServiceName: Amazon QuickSight
+  - ServiceCode: ram
+    ServiceName: AWS Resource Access Manager
+  - ServiceCode: rbin
+    ServiceName: Amazon Recycle Bin
+  - ServiceCode: rds
+    ServiceName: Amazon Relational Database Service (Amazon RDS)
+  - ServiceCode: redshift
+    ServiceName: Amazon Redshift
+  - ServiceCode: refactor-spaces
+    ServiceName: AWS Migration Hub Refactor Spaces
+- NextToken: UFQCQUFBQUFBRUNBZ0I0SXlQZUFsOUhqK3V3NUlpR3NYaHloREF0NCtBcUJtQnRQNysvT1A2ajM2UUJwbHFXY2FXODZUVHhJRmk2SXZOZ2t3QUFBU1l3Z2dFaUJna3Foa2lHOXcwQkJ3YWdnZ0VUTUlJQkR3SUJBRENDQVFnR0NTcUdTSWIzRFFFSEFUQWVCZ2xnaGtnQlpRTUVBUzR3RVFRTUFaa29maDB0Y3ZEUnNsZ1VBZ0VRZ0lIYUNuQTZHTWdiZVEvWVJDR3c2bVpMTGRtanF6WG5PakkySzM4ZXhDZkI4V3Q2L1dob2txYk1KbTZKMnNqbWlRRHJYRGxtaWxIZzBXc1dzOHlvT1RoS2xpQ1FGbEdxVlZFRUlKMzRmdk4xeUVCd05pRkVOM3FxUWJKdm12VWZNcVFnbEtkUXlQK1U0YUdkZ2RPMkYyV0hXZEdYUE5KcjJyUFI2NmJTN2pVWXM2QTh0OUhCRUhkSVIyUmhvalBzRnk1SndtNE44Zml4U0NwN05hdXRhTURaQXRteUFLVGx2bHBQWVNINytINkNNVnMvOWREWGxUZG90TEltaytWaW1iZjFoU0ZmdjZsK0JZd3RBbU1BamNQVG5HUVMvbXpSU1FWM0dZaz0=
+  Services:
+  - ServiceCode: rekognition
+    ServiceName: Amazon Rekognition
+  - ServiceCode: resiliencehub
+    ServiceName: AWS Resilience Hub
+  - ServiceCode: resource-explorer-2
+    ServiceName: AWS Resource Explorer
+  - ServiceCode: resource-groups
+    ServiceName: AWS Resource Groups
+  - ServiceCode: robomaker
+    ServiceName: AWS RoboMaker
+  - ServiceCode: rolesanywhere
+    ServiceName: IAM Roles Anywhere
+  - ServiceCode: route53
+    ServiceName: Amazon Route 53
+  - ServiceCode: route53profiles
+    ServiceName: Route 53 Profiles
+  - ServiceCode: route53resolver
+    ServiceName: Route 53 Resolver
+  - ServiceCode: rum
+    ServiceName: Amazon CloudWatch RUM
+  - ServiceCode: s3
+    ServiceName: Amazon Simple Storage Service (Amazon S3)
+  - ServiceCode: s3-outposts
+    ServiceName: AWS S3 Outposts
+  - ServiceCode: sagemaker
+    ServiceName: Amazon SageMaker
+  - ServiceCode: scheduler
+    ServiceName: Amazon EventBridge Scheduler
+  - ServiceCode: schemas
+    ServiceName: Amazon EventBridge Schema Registry
+  - ServiceCode: scn
+    ServiceName: AWS Supply Chain
+  - ServiceCode: sdb
+    ServiceName: Amazon SimpleDB
+  - ServiceCode: secretsmanager
+    ServiceName: AWS Secrets Manager
+  - ServiceCode: security-ir
+    ServiceName: Security Incident Response
+  - ServiceCode: securityhub
+    ServiceName: AWS Security Hub
+- NextToken: UFQCQUFBQUFBRUNBZ0I0SXlQZUFsOUhqK3V3NUlpR3NYaHloREF0NCtBcUJtQnRQNysvT1A2ajM2UUJCMUFXclc2akZVVFBGYXdCMU85QlRRQUFBU0l3Z2dFZUJna3Foa2lHOXcwQkJ3YWdnZ0VQTUlJQkN3SUJBRENDQVFRR0NTcUdTSWIzRFFFSEFUQWVCZ2xnaGtnQlpRTUVBUzR3RVFRTSsreHNBa0JaTytEWldCSjhBZ0VRZ0lIV3g5QU9JRzhGTHB0aGxqWlN4clVHVSsvWmZTRFVHdWFoWmtOOUZTaSszWXZOenJUZERZOVU5aW1tL2xiMFRSQzJKZ3dmL2VGanNObm1MNGcwZnorTXYrMHprM2FHL0YvQnVLdTExbHU2a1YyK09tWFFiT21ORFl4aFFZTFZ1RlJGN0Z0bnZkM0ZFSmIyMWpHZXlrZjZqMXdoNkQzOU1tODVGTTNsbnFPRm5TOVI1eksySlhxK1BSMzBsMXdZeU9IL3ltMUo5TTRyQXNzWkNiVFB6UzVyWk81WTdRR0RTbVJUUWFSWWU1bER3Qno2TzBRWEtOUjNjYWZlalZFUnRjbk5zSXBTK1FSQ1hHU0l4ZVc3MS9HWkZ1Z2pMQjVER3c9PQ==
+  Services:
+  - ServiceCode: serverlessrepo
+    ServiceName: AWS Serverless Application Repository
+  - ServiceCode: servicecatalog
+    ServiceName: AWS Service Catalog
+  - ServiceCode: servicequotas
+    ServiceName: Service Quotas
+  - ServiceCode: ses
+    ServiceName: Amazon Simple Email Service(Amazon SES)
+  - ServiceCode: shield
+    ServiceName: AWS Shield Advanced
+  - ServiceCode: signer
+    ServiceName: AWS Signer
+  - ServiceCode: simspaceweaver
+    ServiceName: AWS SimSpace Weaver
+  - ServiceCode: sms
+    ServiceName: AWS Server Migration Service
+  - ServiceCode: snow-device-management
+    ServiceName: AWS Snow Device Management
+  - ServiceCode: snowball
+    ServiceName: AWS Snow Family
+  - ServiceCode: sns
+    ServiceName: Amazon Simple Notification Service (Amazon SNS)
+  - ServiceCode: sqs
+    ServiceName: Amazon Simple Queue Service (Amazon SQS)
+  - ServiceCode: ssm
+    ServiceName: AWS Systems Manager
+  - ServiceCode: ssm-contacts
+    ServiceName: AWS Systems Manager Incident Manager Contacts
+  - ServiceCode: ssm-guiconnect
+    ServiceName: AWS Systems Manager GUI Connect
+  - ServiceCode: ssm-incidents
+    ServiceName: AWS Systems Manager Incident Manager
+  - ServiceCode: ssm-quicksetup
+    ServiceName: AWS Systems Manager - Quicksetup
+  - ServiceCode: ssm-sap
+    ServiceName: AWS Systems Manager for SAP
+  - ServiceCode: sso
+    ServiceName: AWS IAM Identity Center (successor to AWS Single Sign-On)
+  - ServiceCode: states
+    ServiceName: AWS Step Functions
+- NextToken: UFQCQUFBQUFBRUNBZ0I0SXlQZUFsOUhqK3V3NUlpR3NYaHloREF0NCtBcUJtQnRQNysvT1A2ajM2UUJtdlYwd2l6Qnlwa3R4MFhURkxWNnFnQUFBU0V3Z2dFZEJna3Foa2lHOXcwQkJ3YWdnZ0VPTUlJQkNnSUJBRENDQVFNR0NTcUdTSWIzRFFFSEFUQWVCZ2xnaGtnQlpRTUVBUzR3RVFRTXZ1MmtobGh3WU1MRUh3dkhBZ0VRZ0lIVk8yS05CdlpYNHQrdXFBR3BQU3JTWW4zaGh2eHdZemhmTU94Z3NJeUFmTVV4blZhbC84SThQSWF3dmF2QnZRQlh6T0RzbTRRVzhaQllNTG1vVU5UdjhWN2pNekZ5MDNEcWpsTEtldERtclQ0UGtBMXhQcjJ1SlhCeVdWZFdkRXYxMzFVNFhDdHErbk1WZVQvekRRT1RVZU04U3lzRmh5bmVRYUNqNTFIc1NCSEpqcjZTTXVOSFZJK3A1V093Vk8xNDB4ZjdMc25pT2pnQ3JNZXg5WWtUdWFVa2g1aXd6Q2U5RjFScFJnN3pJL1hXTTFmS0txK2RQLzBQUStDUjhIZTRaWC9BTk45Y0Zzdi9tOWR1SkZwVk5hQi9HbS9h
+  Services:
+  - ServiceCode: storagegateway
+    ServiceName: AWS Storage Gateway
+  - ServiceCode: support
+    ServiceName: AWS Support
+  - ServiceCode: supportapp
+    ServiceName: AWS Support App
+  - ServiceCode: swf
+    ServiceName: Amazon Simple Workflow Service
+  - ServiceCode: textract
+    ServiceName: Amazon Textract
+  - ServiceCode: timestream
+    ServiceName: Amazon Timestream
+  - ServiceCode: timestream-influxdb
+    ServiceName: Amazon Timestream for InfluxDB
+  - ServiceCode: tnb
+    ServiceName: AWS Telco Network Builder
+  - ServiceCode: transcribe
+    ServiceName: Amazon Transcribe
+  - ServiceCode: transfer
+    ServiceName: AWS Transfer Family
+  - ServiceCode: translate
+    ServiceName: Amazon Translate
+  - ServiceCode: trustedadvisor
+    ServiceName: AWS Trusted Advisor
+  - ServiceCode: ts
+    ServiceName: Diagnostic Tools
+  - ServiceCode: vendor-insights
+    ServiceName: AWS Marketplace Vendor Insights
+  - ServiceCode: verifiedpermissions
+    ServiceName: Amazon Verified Permissions
+  - ServiceCode: vmimportexport
+    ServiceName: EC2 VM Import/Export
+  - ServiceCode: voiceid
+    ServiceName: Amazon Connect Voice ID
+  - ServiceCode: vpc
+    ServiceName: Amazon Virtual Private Cloud (Amazon VPC)
+  - ServiceCode: vpc-lattice
+    ServiceName: VPC Lattice
+  - ServiceCode: waf
+    ServiceName: AWS WAF Classic (Global)
+- Services:
+  - ServiceCode: waf-regional
+    ServiceName: AWS WAF Classic (Regional)
+  - ServiceCode: wafv2
+    ServiceName: AWS WAF
+  - ServiceCode: wam
+    ServiceName: Amazon WorkSpaces Application Manager
+  - ServiceCode: wellarchitected
+    ServiceName: AWS Well-Architected Tool
+  - ServiceCode: wisdom
+    ServiceName: Amazon Q in Connect
+  - ServiceCode: workspaces
+    ServiceName: Amazon WorkSpaces
+  - ServiceCode: workspaces-web
+    ServiceName: Amazon WorkSpaces Secure Browser
+  - ServiceCode: xray
+    ServiceName: AWS X-Ray
