@@ -1,0 +1,9 @@
+aws cloudwatch put-metric-alarm \
+--alarm-name 'temp' \
+--alarm-description 'Created through AWS Service Quotas Console' \
+--actions-enabled \
+--evaluation-periods 10 \
+--datapoints-to-alarm 10 \
+--threshold 80 \
+--comparison-operator 'GreaterThanOrEqualToThreshold' \
+--metrics '[{"Id":"usage_data","ReturnData":false,"MetricStat":{"Metric":{"Namespace":"AWS/Usage","MetricName":"ResourceCount","Dimensions":[{"Name":"Class","Value":"P/OnDemand"},{"Name":"Resource","Value":"vCPU"},{"Name":"Service","Value":"EC2"},{"Name":"Type","Value":"Resource"}]},"Period":60,"Stat":"Maximum"}},{"Id":"pct_utilization","Label":"% Utilization","ReturnData":true,"Expression":"(usage_data/SERVICE_QUOTA(usage_data))*100"}]'
