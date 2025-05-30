@@ -1,0 +1,78 @@
+Region: us-west-2 | Service: autoscaling | Quota: Auto Scaling groups per region | Utilization: 74.0
+Region: us-west-2 | Service: cloudformation | Quota: Stacks | Utilization: 15.0
+Region: us-west-2 | Service: cloudformation | Quota: Stack sets per administrator account | Utilization: 2.0
+Region: us-west-2 | Service: cloudtrail | Quota: Trails per region | Utilization: 3.0
+Region: us-west-2 | Service: dynamodb | Quota: Account-level write throughput limit (Provisioned mode) | Utilization: 100.0
+Region: us-west-2 | Service: dynamodb | Quota: Account-level read throughput limit (Provisioned mode) | Utilization: 1000.0
+Region: us-west-2 | Service: dynamodb | Quota: Maximum number of tables | Utilization: 11.0
+Region: us-west-2 | Service: ec2 | Quota: Running On-Demand Standard (A, C, D, H, I, M, R, T, Z) instances | Utilization: 4111.0
+Region: us-west-2 | Service: ecr | Quota: Rate of GetAuthorizationToken requests | Utilization: 10.0
+Region: us-west-2 | Service: ecr | Quota: Rate of BatchGetImage requests | Utilization: 34.0
+Region: us-west-2 | Service: ecr | Quota: Rate of GetDownloadUrlForLayer requests | Utilization: 186.0
+Region: us-west-2 | Service: elasticache | Quota: Subnet groups per Region | Utilization: 19.0
+Region: us-west-2 | Service: elasticache | Quota: Users per Region | Utilization: 1.0
+Region: us-west-2 | Service: elasticache | Quota: Nodes per cluster (cluster mode enabled) | Utilization: 2.0
+Region: us-west-2 | Service: elasticache | Quota: Nodes per Region | Utilization: 29.0
+Region: us-west-2 | Service: elasticache | Quota: Subnets per subnet group | Utilization: 3.0
+Region: us-west-2 | Service: elasticloadbalancing | Quota: Rules per Application Load Balancer | Utilization: 20.0
+Region: us-west-2 | Service: elasticloadbalancing | Quota: Network Load Balancer ENIs per VPC | Utilization: 51.0
+Region: us-west-2 | Service: elasticloadbalancing | Quota: Target Groups per Application Load Balancer | Utilization: 10.0
+Region: us-west-2 | Service: elasticloadbalancing | Quota: Listeners per Application Load Balancer | Utilization: 2.0
+Region: us-west-2 | Service: elasticloadbalancing | Quota: Certificates per Network Load Balancer | Utilization: 1.0
+Region: us-west-2 | Service: elasticloadbalancing | Quota: Certificates per Application Load Balancer | Utilization: 12.0
+Region: us-west-2 | Service: elasticloadbalancing | Quota: Targets per Availability Zone per Network Load Balancer | Utilization: 100.0
+Region: us-west-2 | Service: elasticloadbalancing | Quota: Targets per Network Load Balancer | Utilization: 48.0
+Region: us-west-2 | Service: elasticloadbalancing | Quota: Condition Values per Rule | Utilization: 5.0
+Region: us-west-2 | Service: elasticloadbalancing | Quota: Condition Wildcards per Rule | Utilization: 4.0
+Region: us-west-2 | Service: elasticloadbalancing | Quota: Target Groups per Region | Utilization: 72.0
+Region: us-west-2 | Service: elasticloadbalancing | Quota: Target Groups per Action per Application Load Balancer | Utilization: 1.0
+Region: us-west-2 | Service: elasticloadbalancing | Quota: Listeners per Network Load Balancer | Utilization: 2.0
+Region: us-west-2 | Service: elasticloadbalancing | Quota: Targets per Target Group per Region | Utilization: 48.0
+Region: us-west-2 | Service: elasticloadbalancing | Quota: Targets per Application Load Balancer | Utilization: 21.0
+Region: us-west-2 | Service: elasticloadbalancing | Quota: Application Load Balancers per Region | Utilization: 15.0
+Region: us-west-2 | Service: elasticloadbalancing | Quota: Network Load Balancers per Region | Utilization: 34.0
+Region: us-west-2 | Service: elasticmapreduce | Quota: The maximum number of ListClusters API requests that you can make per second. | Utilization: 213.0
+Region: us-west-2 | Service: events | Quota: Invocations throttle limit in transactions per second | Utilization: 210.0
+Region: us-west-2 | Service: iotcore | Quota: ListThings API TPS | Utilization: 214.0
+Region: us-west-2 | Service: kms | Quota: GetKeyPolicy request rate | Utilization: 78.0
+Region: us-west-2 | Service: kms | Quota: CreateGrant request rate | Utilization: 157.0
+Region: us-west-2 | Service: kms | Quota: ListGrants request rate | Utilization: 23.0
+Region: us-west-2 | Service: kms | Quota: Customer Master Keys (CMKs) | Utilization: 96.0
+Region: us-west-2 | Service: kms | Quota: Cryptographic operations (symmetric) request rate | Utilization: 27969.0
+Region: us-west-2 | Service: kms | Quota: DescribeKey request rate | Utilization: 486.0
+Region: us-west-2 | Service: logs | Quota: PutRetentionPolicy throttle limit in transactions per second | Utilization: 1.0
+Region: us-west-2 | Service: logs | Quota: CreateLogGroup throttle limit in transactions per second | Utilization: 1.0
+Region: us-west-2 | Service: logs | Quota: DescribeLogGroups throttle limit in transactions per second | Utilization: 153.0
+Region: us-west-2 | Service: logs | Quota: FilterLogEvents throttle limit in transactions per second | Utilization: 5.0
+Region: us-west-2 | Service: logs | Quota: DescribeLogStreams throttle limit in transactions per second | Utilization: 181.0
+Region: us-west-2 | Service: logs | Quota: CreateLogStream throttle limit in transactions per second | Utilization: 206.0
+Region: us-west-2 | Service: logs | Quota: PutLogEvents throttle limit in transactions per second | Utilization: 628034.0
+Region: us-west-2 | Service: logs | Quota: DescribeMetricFilters throttle limit in transactions per second | Utilization: 242.0
+Region: us-west-2 | Service: monitoring | Quota: Rate of GetMetricData requests | Utilization: 22582.0
+Region: us-west-2 | Service: monitoring | Quota: Rate of GetMetricStatistics requests | Utilization: 874.0
+Region: us-west-2 | Service: monitoring | Quota: Rate of DescribeAlarms requests | Utilization: 180.0
+Region: us-west-2 | Service: rds | Quota: Parameter groups | Utilization: 105.0
+Region: us-west-2 | Service: rds | Quota: Read replicas per primary | Utilization: 1.0
+Region: us-west-2 | Service: rds | Quota: Subnets per DB subnet group | Utilization: 3.0
+Region: us-west-2 | Service: rds | Quota: DB subnet groups | Utilization: 105.0
+Region: us-west-2 | Service: rds | Quota: DB instances | Utilization: 109.0
+Region: us-west-2 | Service: rds | Quota: Manual DB instance snapshots | Utilization: 21.0
+Region: us-west-2 | Service: rds | Quota: Total storage for all DB instances | Utilization: 19465.0
+Region: us-west-2 | Service: servicequotas | Quota: Throttle rate for ListAWSDefaultServiceQuotas | Utilization: 1.0
+Region: us-west-2 | Service: servicequotas | Quota: Throttle rate for ListServiceQuotas | Utilization: 642.0
+Region: us-west-2 | Service: servicequotas | Quota: Throttle rate for ListServices | Utilization: 17.0
+Region: us-west-2 | Service: sns | Quota: Messages Published per Second | Utilization: 317.0
+Region: us-west-2 | Service: sns | Quota: ListTagsForResource Transactions per Second | Utilization: 12.0
+Region: us-west-2 | Service: sns | Quota: ListTopics Transactions per Second | Utilization: 212.0
+Region: us-west-2 | Service: sns | Quota: GetTopicAttributes Transactions per Second | Utilization: 12.0
+Region: us-west-2 | Service: ssm | Quota: Transactions per second (TPS) for the GetAutomationExecution API | Utilization: 2.0
+Region: us-west-2 | Service: ssm | Quota: Systems Manager managed node fleet size | Utilization: 4405.0
+Region: us-west-2 | Service: ssm | Quota: Transactions per second (TPS) for the GetDeployablePatchSnapshotForInstance API | Utilization: 1.0
+Region: us-west-2 | Service: ssm | Quota: Concurrently executing rate control automation | Utilization: 1.0
+Region: us-west-2 | Service: ssm | Quota: Transactions per second (TPS) for the PutComplianceItems API | Utilization: 637.0
+Region: us-west-2 | Service: ssm | Quota: Standard parameters | Utilization: 6.0
+Region: us-west-2 | Service: ssm | Quota: Describe instance (node) information rate | Utilization: 32.0
+Region: us-west-2 | Service: ssm | Quota: Concurrently executing Automations | Utilization: 2.0
+Region: us-west-2 | Service: ssm | Quota: Transactions per second (TPS) for the DescribeAssociation API | Utilization: 1.0
+Region: us-west-2 | Service: ssm | Quota: Transactions per second (TPS) for the StartAutomationExecution API | Utilization: 2.0
+Region: us-west-2 | Service: wafv2 | Quota: Maximum web ACLs per account in WAF for regional | Utilization: 4.0
