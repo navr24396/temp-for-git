@@ -9,9 +9,9 @@ Service: cloudformation | Quota: Stacks
 Service: cloudformation | Quota: Stack sets per administrator account
 Service: cloudtrail | Quota: Transactions per second (TPS) for the LookupEvents API
 Service: cloudtrail | Quota: Trails per region
-Service: dynamodb | Quota: Account-level write throughput limit (Provisioned mode)
-Service: dynamodb | Quota: Account-level read throughput limit (Provisioned mode)
 Service: dynamodb | Quota: Maximum number of tables
+
+
 Service: ec2 | Quota: Running On-Demand Standard (A, C, D, H, I, M, R, T, Z) instances
 Service: ecr | Quota: Rate of GetAuthorizationToken requests
 Service: ecr | Quota: Rate of BatchGetImage requests
@@ -68,7 +68,7 @@ Service: rds | Quota: Subnets per DB subnet group
 Service: rds | Quota: DB subnet groups
 Service: rds | Quota: DB instances
 Service: rds | Quota: Manual DB instance snapshots
-Service: rds | Quota: Total storage for all DB instances
+
 Service: servicequotas | Quota: Throttle rate for ListAWSDefaultServiceQuotas
 Service: servicequotas | Quota: Throttle rate for ListServiceQuotas
 Service: servicequotas | Quota: Throttle rate for GetServiceQuota
@@ -92,4 +92,13 @@ Service: ssm | Quota: Rate of GetParameter requests
 Service: ssm | Quota: Rate of DescribeParameters requests
 Service: wafv2 | Quota: Maximum web ACLs per account in WAF for regional
 Service: wafv2 | Quota: Maximum regex pattern sets per account in WAF for regional
+
+
+Need to import:
+Service: dynamodb | Quota: Account-level write throughput limit (Provisioned mode)
+Service: dynamodb | Quota: Account-level read throughput limit (Provisioned mode)
+
+Erroring while creating:
+Service: rds | Quota: Total storage for all DB instances
+
 
