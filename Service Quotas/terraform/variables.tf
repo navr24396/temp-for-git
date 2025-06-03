@@ -1,8 +1,12 @@
-variable "sns" {
+/*variable "sns" {
   default = "arn:aws:sns:us-west-2:585008069642:sns"
+  default = aws_sns_topic.sns.arn
   type    = string
-}
+}*/
 
+locals {
+  sns_arn = aws_sns_topic.sns.arn
+}
 variable "alarm_description" {
   type = string
   default = "This alarm triggers when 80% of the applied Service Quota limit is reached."

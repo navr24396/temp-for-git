@@ -1,6 +1,6 @@
 resource "aws_cloudwatch_metric_alarm" "ec2_quota_running_on_demand_standard_instances" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: ec2 | Quota: Running On-Demand Standard (A, C, D, H, I, M, R, T, Z) instances"
   comparison_operator = var.comparison_operator
@@ -62,7 +62,7 @@ resource "aws_cloudwatch_metric_alarm" "ec2_quota_running_on_demand_standard_ins
 
 resource "aws_cloudwatch_metric_alarm" "ssm_quota_describe_instance_info_rate" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: ssm | Quota: Describe instance (node) information rate"
   comparison_operator = var.comparison_operator
@@ -124,7 +124,7 @@ resource "aws_cloudwatch_metric_alarm" "ssm_quota_describe_instance_info_rate" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "Maximum-number-of-deployment-strategies" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: appconfig | Quota: Maximum number of deployment strategies"
   comparison_operator = var.comparison_operator
@@ -181,7 +181,7 @@ resource "aws_cloudwatch_metric_alarm" "Maximum-number-of-deployment-strategies"
 
 resource "aws_cloudwatch_metric_alarm" "Maximum-number-of-applications" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: appconfig | Quota: Maximum number of applications"
   comparison_operator = var.comparison_operator
@@ -236,7 +236,7 @@ resource "aws_cloudwatch_metric_alarm" "Maximum-number-of-applications" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "Auto-Scaling-groups-per-region" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: autoscaling | Quota: Auto Scaling groups per region"
   comparison_operator = var.comparison_operator
@@ -287,7 +287,7 @@ resource "aws_cloudwatch_metric_alarm" "Auto-Scaling-groups-per-region" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "throttle-rate-limit-for-liststackresources" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: cloudformation | Quota: Throttle rate limit for ListStackResources"
   comparison_operator = var.comparison_operator
@@ -343,7 +343,7 @@ resource "aws_cloudwatch_metric_alarm" "throttle-rate-limit-for-liststackresourc
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "throttle-rate-limit-for-describeaccountlimits" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: cloudformation | Quota: Throttle rate limit for DescribeAccountLimits"
   comparison_operator = var.comparison_operator
@@ -401,7 +401,7 @@ resource "aws_cloudwatch_metric_alarm" "throttle-rate-limit-for-describeaccountl
 
 resource "aws_cloudwatch_metric_alarm" "throttle-rate-limit-for-describestacks" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: cloudformation | Quota: Throttle rate limit for DescribeStacks"
   comparison_operator = var.comparison_operator
@@ -458,7 +458,7 @@ resource "aws_cloudwatch_metric_alarm" "throttle-rate-limit-for-describestacks" 
 
 resource "aws_cloudwatch_metric_alarm" "throttle-rate-limit-for-liststacks" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: cloudformation | Quota: Throttle rate limit for ListStacks"
   comparison_operator = var.comparison_operator
@@ -514,7 +514,7 @@ resource "aws_cloudwatch_metric_alarm" "throttle-rate-limit-for-liststacks" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "stacks" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: cloudformation | Quota: Stacks"
   comparison_operator = var.comparison_operator
@@ -570,7 +570,7 @@ resource "aws_cloudwatch_metric_alarm" "stacks" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "stack-sets-per-administrator-account" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: cloudformation | Quota: Stack sets per administrator account"
   comparison_operator = var.comparison_operator
@@ -626,7 +626,7 @@ resource "aws_cloudwatch_metric_alarm" "stack-sets-per-administrator-account" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "transactions-per-second-tps-for-the-lookupevents-api" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: cloudtrail | Quota: Transactions per second (TPS) for the LookupEvents API"
   comparison_operator = var.comparison_operator
@@ -682,7 +682,7 @@ resource "aws_cloudwatch_metric_alarm" "transactions-per-second-tps-for-the-look
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "trails-per-region" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: cloudtrail | Quota: Trails per region"
   comparison_operator = var.comparison_operator
@@ -738,7 +738,7 @@ resource "aws_cloudwatch_metric_alarm" "trails-per-region" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "maximum-number-of-tables" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: dynamodb | Quota: Maximum number of tables"
   comparison_operator = var.comparison_operator
@@ -795,7 +795,7 @@ resource "aws_cloudwatch_metric_alarm" "maximum-number-of-tables" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "rate-of-getauthorizationtoken-requests" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: ecr | Quota: Rate of GetAuthorizationToken requests"
   comparison_operator = var.comparison_operator
@@ -852,7 +852,7 @@ resource "aws_cloudwatch_metric_alarm" "rate-of-getauthorizationtoken-requests" 
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "rate-of-batchgetimage-requests" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: ecr | Quota: Rate of BatchGetImage requests"
   comparison_operator = var.comparison_operator
@@ -909,7 +909,7 @@ resource "aws_cloudwatch_metric_alarm" "rate-of-batchgetimage-requests" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "rate-of-getdownloadurlforlayer-requests" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: ecr | Quota: Rate of GetDownloadUrlForLayer requests"
   comparison_operator = var.comparison_operator
@@ -966,7 +966,7 @@ resource "aws_cloudwatch_metric_alarm" "rate-of-getdownloadurlforlayer-requests"
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "subnet-groups-per-region" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: elasticache | Quota: Subnet groups per Region"
   comparison_operator = var.comparison_operator
@@ -1023,7 +1023,7 @@ resource "aws_cloudwatch_metric_alarm" "subnet-groups-per-region" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "users-per-region" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: elasticache | Quota: Users per Region"
   comparison_operator = var.comparison_operator
@@ -1080,7 +1080,7 @@ resource "aws_cloudwatch_metric_alarm" "users-per-region" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "nodes-per-cluster-cluster-mode-enabled" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: elasticache | Quota: Nodes per cluster (cluster mode enabled)"
   comparison_operator = var.comparison_operator
@@ -1137,7 +1137,7 @@ resource "aws_cloudwatch_metric_alarm" "nodes-per-cluster-cluster-mode-enabled" 
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "nodes-per-region" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: elasticache | Quota: Nodes per Region"
   comparison_operator = var.comparison_operator
@@ -1194,7 +1194,7 @@ resource "aws_cloudwatch_metric_alarm" "nodes-per-region" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "subnets-per-subnet-group" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: elasticache | Quota: Subnets per subnet group"
   comparison_operator = var.comparison_operator
@@ -1251,7 +1251,7 @@ resource "aws_cloudwatch_metric_alarm" "subnets-per-subnet-group" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "rules-per-application-load-balancer" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: elasticloadbalancing | Quota: Rules per Application Load Balancer"
   comparison_operator = var.comparison_operator
@@ -1308,7 +1308,7 @@ resource "aws_cloudwatch_metric_alarm" "rules-per-application-load-balancer" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "network-load-balancer-enis-per-vpc" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: elasticloadbalancing | Quota: Network Load Balancer ENIs per VPC"
   comparison_operator = var.comparison_operator
@@ -1365,7 +1365,7 @@ resource "aws_cloudwatch_metric_alarm" "network-load-balancer-enis-per-vpc" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "target-groups-per-application-load-balancer" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: elasticloadbalancing | Quota: Target Groups per Application Load Balancer"
   comparison_operator = var.comparison_operator
@@ -1422,7 +1422,7 @@ resource "aws_cloudwatch_metric_alarm" "target-groups-per-application-load-balan
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "listeners-per-application-load-balancer" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: elasticloadbalancing | Quota: Listeners per Application Load Balancer"
   comparison_operator = var.comparison_operator
@@ -1479,7 +1479,7 @@ resource "aws_cloudwatch_metric_alarm" "listeners-per-application-load-balancer"
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "certificates-per-network-load-balancer" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: elasticloadbalancing | Quota: Certificates per Network Load Balancer"
   comparison_operator = var.comparison_operator
@@ -1536,7 +1536,7 @@ resource "aws_cloudwatch_metric_alarm" "certificates-per-network-load-balancer" 
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "certificates-per-application-load-balancer" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: elasticloadbalancing | Quota: Certificates per Application Load Balancer"
   comparison_operator = var.comparison_operator
@@ -1593,7 +1593,7 @@ resource "aws_cloudwatch_metric_alarm" "certificates-per-application-load-balanc
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "targets-per-availability-zone-per-network-load-balancer" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: elasticloadbalancing | Quota: Targets per Availability Zone per Network Load Balancer"
   comparison_operator = var.comparison_operator
@@ -1650,7 +1650,7 @@ resource "aws_cloudwatch_metric_alarm" "targets-per-availability-zone-per-networ
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "targets-per-network-load-balancer" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: elasticloadbalancing | Quota: Targets per Network Load Balancer"
   comparison_operator = var.comparison_operator
@@ -1707,7 +1707,7 @@ resource "aws_cloudwatch_metric_alarm" "targets-per-network-load-balancer" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "condition-values-per-rule" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: elasticloadbalancing | Quota: Condition Values per Rule"
   comparison_operator = var.comparison_operator
@@ -1764,7 +1764,7 @@ resource "aws_cloudwatch_metric_alarm" "condition-values-per-rule" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "condition-wildcards-per-rule" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: elasticloadbalancing | Quota: Condition Wildcards per Rule"
   comparison_operator = var.comparison_operator
@@ -1821,7 +1821,7 @@ resource "aws_cloudwatch_metric_alarm" "condition-wildcards-per-rule" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "target-groups-per-region" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: elasticloadbalancing | Quota: Target Groups per Region"
   comparison_operator = var.comparison_operator
@@ -1878,7 +1878,7 @@ resource "aws_cloudwatch_metric_alarm" "target-groups-per-region" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "target-groups-per-action-per-application-load-balancer" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: elasticloadbalancing | Quota: Target Groups per Action per Application Load Balancer"
   comparison_operator = var.comparison_operator
@@ -1935,7 +1935,7 @@ resource "aws_cloudwatch_metric_alarm" "target-groups-per-action-per-application
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "listeners-per-network-load-balancer" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: elasticloadbalancing | Quota: Listeners per Network Load Balancer"
   comparison_operator = var.comparison_operator
@@ -1992,7 +1992,7 @@ resource "aws_cloudwatch_metric_alarm" "listeners-per-network-load-balancer" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "targets-per-target-group-per-region" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: elasticloadbalancing | Quota: Targets per Target Group per Region"
   comparison_operator = var.comparison_operator
@@ -2049,7 +2049,7 @@ resource "aws_cloudwatch_metric_alarm" "targets-per-target-group-per-region" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "targets-per-application-load-balancer" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: elasticloadbalancing | Quota: Targets per Application Load Balancer"
   comparison_operator = var.comparison_operator
@@ -2106,7 +2106,7 @@ resource "aws_cloudwatch_metric_alarm" "targets-per-application-load-balancer" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "application-load-balancers-per-region" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: elasticloadbalancing | Quota: Application Load Balancers per Region"
   comparison_operator = var.comparison_operator
@@ -2163,7 +2163,7 @@ resource "aws_cloudwatch_metric_alarm" "application-load-balancers-per-region" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "network-load-balancers-per-region" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: elasticloadbalancing | Quota: Network Load Balancers per Region"
   comparison_operator = var.comparison_operator
@@ -2220,7 +2220,7 @@ resource "aws_cloudwatch_metric_alarm" "network-load-balancers-per-region" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "the-maximum-number-of-listclusters-api-requests-that-you-can-make-per-second" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: elasticmapreduce | Quota: The maximum number of ListClusters API requests that you can make per second"
   comparison_operator = var.comparison_operator
@@ -2277,7 +2277,7 @@ resource "aws_cloudwatch_metric_alarm" "the-maximum-number-of-listclusters-api-r
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "invocations-throttle-limit-in-transactions-per-second" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: events | Quota: Invocations throttle limit in transactions per second"
   comparison_operator = var.comparison_operator
@@ -2334,7 +2334,7 @@ resource "aws_cloudwatch_metric_alarm" "invocations-throttle-limit-in-transactio
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "delivery-streams" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: firehose | Quota: Delivery streams"
   comparison_operator = var.comparison_operator
@@ -2391,7 +2391,7 @@ resource "aws_cloudwatch_metric_alarm" "delivery-streams" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "listthings-api-tps" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: iotcore | Quota: ListThings API TPS"
   comparison_operator = var.comparison_operator
@@ -2448,7 +2448,7 @@ resource "aws_cloudwatch_metric_alarm" "listthings-api-tps" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "shards-per-region" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: kinesis | Quota: Shards per Region"
   comparison_operator = var.comparison_operator
@@ -2505,7 +2505,7 @@ resource "aws_cloudwatch_metric_alarm" "shards-per-region" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "getkeypolicy-request-rate" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: kms | Quota: GetKeyPolicy request rate"
   comparison_operator = var.comparison_operator
@@ -2562,7 +2562,7 @@ resource "aws_cloudwatch_metric_alarm" "getkeypolicy-request-rate" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "creategrant-request-rate" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: kms | Quota: CreateGrant request rate"
   comparison_operator = var.comparison_operator
@@ -2619,7 +2619,7 @@ resource "aws_cloudwatch_metric_alarm" "creategrant-request-rate" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "listgrants-request-rate" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: kms | Quota: ListGrants request rate"
   comparison_operator = var.comparison_operator
@@ -2676,7 +2676,7 @@ resource "aws_cloudwatch_metric_alarm" "listgrants-request-rate" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "customer-master-keys-cmks" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: kms | Quota: Customer Master Keys (CMKs)"
   comparison_operator = var.comparison_operator
@@ -2733,7 +2733,7 @@ resource "aws_cloudwatch_metric_alarm" "customer-master-keys-cmks" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "cryptographic-operations-symmetric-request-rate" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: kms | Quota: Cryptographic operations (symmetric) request rate"
   comparison_operator = var.comparison_operator
@@ -2790,7 +2790,7 @@ resource "aws_cloudwatch_metric_alarm" "cryptographic-operations-symmetric-reque
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "describekey-request-rate" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: kms | Quota: DescribeKey request rate"
   comparison_operator = var.comparison_operator
@@ -2847,7 +2847,7 @@ resource "aws_cloudwatch_metric_alarm" "describekey-request-rate" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "putretentionpolicy-throttle-limit-in-transactions-per-second" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: logs | Quota: PutRetentionPolicy throttle limit in transactions per second"
   comparison_operator = var.comparison_operator
@@ -2904,7 +2904,7 @@ resource "aws_cloudwatch_metric_alarm" "putretentionpolicy-throttle-limit-in-tra
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "createloggroup-throttle-limit-in-transactions-per-second" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: logs | Quota: CreateLogGroup throttle limit in transactions per second"
   comparison_operator = var.comparison_operator
@@ -2961,7 +2961,7 @@ resource "aws_cloudwatch_metric_alarm" "createloggroup-throttle-limit-in-transac
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "describeloggroups-throttle-limit-in-transactions-per-second" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: logs | Quota: DescribeLogGroups throttle limit in transactions per second"
   comparison_operator = var.comparison_operator
@@ -3018,7 +3018,7 @@ resource "aws_cloudwatch_metric_alarm" "describeloggroups-throttle-limit-in-tran
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "filterlogevents-throttle-limit-in-transactions-per-second" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: logs | Quota: FilterLogEvents throttle limit in transactions per second"
   comparison_operator = var.comparison_operator
@@ -3075,7 +3075,7 @@ resource "aws_cloudwatch_metric_alarm" "filterlogevents-throttle-limit-in-transa
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "describelogstreams-throttle-limit-in-transactions-per-second" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: logs | Quota: DescribeLogStreams throttle limit in transactions per second"
   comparison_operator = var.comparison_operator
@@ -3132,7 +3132,7 @@ resource "aws_cloudwatch_metric_alarm" "describelogstreams-throttle-limit-in-tra
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "createlogstream-throttle-limit-in-transactions-per-second" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: logs | Quota: CreateLogStream throttle limit in transactions per second"
   comparison_operator = var.comparison_operator
@@ -3189,7 +3189,7 @@ resource "aws_cloudwatch_metric_alarm" "createlogstream-throttle-limit-in-transa
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "putlogevents-throttle-limit-in-transactions-per-second" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: logs | Quota: PutLogEvents throttle limit in transactions per second"
   comparison_operator = var.comparison_operator
@@ -3246,7 +3246,7 @@ resource "aws_cloudwatch_metric_alarm" "putlogevents-throttle-limit-in-transacti
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "describemetricfilters-throttle-limit-in-transactions-per-second" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: logs | Quota: DescribeMetricFilters throttle limit in transactions per second"
   comparison_operator = var.comparison_operator
@@ -3303,7 +3303,7 @@ resource "aws_cloudwatch_metric_alarm" "describemetricfilters-throttle-limit-in-
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "rate-of-getmetricdata-requests" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: monitoring | Quota: Rate of GetMetricData requests"
   comparison_operator = var.comparison_operator
@@ -3360,7 +3360,7 @@ resource "aws_cloudwatch_metric_alarm" "rate-of-getmetricdata-requests" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "rate-of-getmetricstatistics-requests" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: monitoring | Quota: Rate of GetMetricStatistics requests"
   comparison_operator = var.comparison_operator
@@ -3417,7 +3417,7 @@ resource "aws_cloudwatch_metric_alarm" "rate-of-getmetricstatistics-requests" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "rate-of-putmetricdata-requests" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: monitoring | Quota: Rate of PutMetricData requests"
   comparison_operator = var.comparison_operator
@@ -3474,7 +3474,7 @@ resource "aws_cloudwatch_metric_alarm" "rate-of-putmetricdata-requests" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "rate-of-describealarms-requests" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: monitoring | Quota: Rate of DescribeAlarms requests"
   comparison_operator = var.comparison_operator
@@ -3531,7 +3531,7 @@ resource "aws_cloudwatch_metric_alarm" "rate-of-describealarms-requests" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "number-of-contributor-insights-rules" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: monitoring | Quota: Number of Contributor Insights rules"
   comparison_operator = var.comparison_operator
@@ -3588,7 +3588,7 @@ resource "aws_cloudwatch_metric_alarm" "number-of-contributor-insights-rules" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "parameter-groups" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: rds | Quota: Parameter groups"
   comparison_operator = var.comparison_operator
@@ -3641,7 +3641,7 @@ resource "aws_cloudwatch_metric_alarm" "parameter-groups" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "read-replicas-per-primary" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: rds | Quota: Read replicas per primary"
   comparison_operator = var.comparison_operator
@@ -3694,7 +3694,7 @@ resource "aws_cloudwatch_metric_alarm" "read-replicas-per-primary" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "subnets-per-db-subnet-group" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: rds | Quota: Subnets per DB subnet group"
   comparison_operator = var.comparison_operator
@@ -3746,7 +3746,7 @@ resource "aws_cloudwatch_metric_alarm" "subnets-per-db-subnet-group" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "db-subnet-groups" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: rds | Quota: DB subnet groups"
   comparison_operator = var.comparison_operator
@@ -3799,7 +3799,7 @@ resource "aws_cloudwatch_metric_alarm" "db-subnet-groups" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "db-instances" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: rds | Quota: DB instances"
   comparison_operator = var.comparison_operator
@@ -3851,7 +3851,7 @@ resource "aws_cloudwatch_metric_alarm" "db-instances" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "manual-db-instance-snapshots" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: rds | Quota: Manual DB instance snapshots"
   comparison_operator = var.comparison_operator
@@ -3904,7 +3904,7 @@ resource "aws_cloudwatch_metric_alarm" "manual-db-instance-snapshots" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "listawsdefaultservicequotas" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: servicequotas | Quota: Throttle rate for ListAWSDefaultServiceQuotas"
   comparison_operator = var.comparison_operator
@@ -3951,7 +3951,7 @@ resource "aws_cloudwatch_metric_alarm" "listawsdefaultservicequotas" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "listservicequotas" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: servicequotas | Quota: Throttle rate for ListServiceQuotas"
   comparison_operator = var.comparison_operator
@@ -4002,7 +4002,7 @@ resource "aws_cloudwatch_metric_alarm" "listservicequotas" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "getservicequota" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: servicequotas | Quota: Throttle rate for GetServiceQuota"
   comparison_operator = var.comparison_operator
@@ -4044,7 +4044,7 @@ resource "aws_cloudwatch_metric_alarm" "getservicequota" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "getawsdefaultservicequota" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: servicequotas | Quota: Throttle rate for GetAWSDefaultServiceQuota"
   comparison_operator = var.comparison_operator
@@ -4084,7 +4084,7 @@ resource "aws_cloudwatch_metric_alarm" "getawsdefaultservicequota" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "listservices" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: servicequotas | Quota: Throttle rate for ListServices"
   comparison_operator = var.comparison_operator
@@ -4124,7 +4124,7 @@ resource "aws_cloudwatch_metric_alarm" "listservices" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "messages-published-per-second" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: sns | Quota: Messages Published per Second"
   comparison_operator = var.comparison_operator
@@ -4177,7 +4177,7 @@ resource "aws_cloudwatch_metric_alarm" "messages-published-per-second" {
 
 resource "aws_cloudwatch_metric_alarm" "listtagsforresource-transactions-per-second" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: sns | Quota: ListTagsForResource Transactions per Second"
   comparison_operator = var.comparison_operator
@@ -4230,7 +4230,7 @@ resource "aws_cloudwatch_metric_alarm" "listtagsforresource-transactions-per-sec
 
 resource "aws_cloudwatch_metric_alarm" "listtopics-transactions-per-second" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: sns | Quota: ListTopics Transactions per Second"
   comparison_operator = var.comparison_operator
@@ -4283,7 +4283,7 @@ resource "aws_cloudwatch_metric_alarm" "listtopics-transactions-per-second" {
 
 resource "aws_cloudwatch_metric_alarm" "gettopicattributes-transactions-per-second" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: sns | Quota: GetTopicAttributes Transactions per Second"
   comparison_operator = var.comparison_operator
@@ -4336,7 +4336,7 @@ resource "aws_cloudwatch_metric_alarm" "gettopicattributes-transactions-per-seco
 
 resource "aws_cloudwatch_metric_alarm" "getautomationexecution-api-tps" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: ssm | Quota: Transactions per second (TPS) for the GetAutomationExecution API"
   comparison_operator = var.comparison_operator
@@ -4389,7 +4389,7 @@ resource "aws_cloudwatch_metric_alarm" "getautomationexecution-api-tps" {
 
 resource "aws_cloudwatch_metric_alarm" "ssm-managed-node-fleet-size" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: ssm | Quota: Systems Manager managed node fleet size"
   comparison_operator = var.comparison_operator
@@ -4442,7 +4442,7 @@ resource "aws_cloudwatch_metric_alarm" "ssm-managed-node-fleet-size" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "getdeployablepatchsnapshotforinstance-tps" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: ssm | Quota: Transactions per second (TPS) for the GetDeployablePatchSnapshotForInstance API"
   comparison_operator = var.comparison_operator
@@ -4495,7 +4495,7 @@ resource "aws_cloudwatch_metric_alarm" "getdeployablepatchsnapshotforinstance-tp
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "concurrently-executing-rate-control-automation" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: ssm | Quota: Concurrently executing rate control automation"
   comparison_operator = var.comparison_operator
@@ -4548,7 +4548,7 @@ resource "aws_cloudwatch_metric_alarm" "concurrently-executing-rate-control-auto
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "putcomplianceitems-tps" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: ssm | Quota: Transactions per second (TPS) for the PutComplianceItems API"
   comparison_operator = var.comparison_operator
@@ -4601,7 +4601,7 @@ resource "aws_cloudwatch_metric_alarm" "putcomplianceitems-tps" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "standard-parameters" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: ssm | Quota: Standard parameters"
   comparison_operator = var.comparison_operator
@@ -4654,7 +4654,7 @@ resource "aws_cloudwatch_metric_alarm" "standard-parameters" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "describe-instance-node-info-rate" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: ssm | Quota: Describe instance (node) information rate"
   comparison_operator = var.comparison_operator
@@ -4707,7 +4707,7 @@ resource "aws_cloudwatch_metric_alarm" "describe-instance-node-info-rate" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "concurrently-executing-automations" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: ssm | Quota: Concurrently executing Automations"
   comparison_operator = var.comparison_operator
@@ -4760,7 +4760,7 @@ resource "aws_cloudwatch_metric_alarm" "concurrently-executing-automations" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "describeassociation-tps" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: ssm | Quota: Transactions per second (TPS) for the DescribeAssociation API"
   comparison_operator = var.comparison_operator
@@ -4813,7 +4813,7 @@ resource "aws_cloudwatch_metric_alarm" "describeassociation-tps" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "startautomationexecution-tps" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: ssm | Quota: Transactions per second (TPS) for the StartAutomationExecution API"
   comparison_operator = var.comparison_operator
@@ -4866,7 +4866,7 @@ resource "aws_cloudwatch_metric_alarm" "startautomationexecution-tps" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "rate-of-getparameter-requests" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: ssm | Quota: Rate of GetParameter requests"
   comparison_operator = var.comparison_operator
@@ -4919,7 +4919,7 @@ resource "aws_cloudwatch_metric_alarm" "rate-of-getparameter-requests" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "rate-of-describeparameters-requests" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: ssm | Quota: Rate of DescribeParameters requests"
   comparison_operator = var.comparison_operator
@@ -4972,7 +4972,7 @@ resource "aws_cloudwatch_metric_alarm" "rate-of-describeparameters-requests" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "maximum-webacls-per-account-regional" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: wafv2 | Quota: Maximum web ACLs per account in WAF for regional"
   comparison_operator = var.comparison_operator
@@ -5025,7 +5025,7 @@ resource "aws_cloudwatch_metric_alarm" "maximum-webacls-per-account-regional" {
 ###########################################################################
 resource "aws_cloudwatch_metric_alarm" "maximum-regex-pattern-sets-per-account-regional" {
   actions_enabled     = true
-  alarm_actions       = [var.sns]
+  alarm_actions       = [local.sns_arn]
   alarm_description   = var.alarm_description
   alarm_name          = "Service: wafv2 | Quota: Maximum regex pattern sets per account in WAF for regional"
   comparison_operator = var.comparison_operator
