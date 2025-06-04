@@ -1,0 +1,46 @@
+Script to fetch service quotas whose utilization is > 0
+
+#!/bin/bash
+
+REGION="us-west-2"
+
+for service in $(aws service-quotas list-services --region "$REGION" --query 'Services[].ServiceCode' --output text); do
+  quotas=$(aws service-quotas list-service-quotas \
+    --region "$REGION" \
+    --service-code "$service" \
+    --query 'Quotas[?UsageMetric!=null]' \
+    --output json)
+
+  echo "$quotas" | jq -c '.[]' | while read -r quota; do
+    quota_name=$(echo "$quota" | jq -r '.QuotaName')
+    namespace=$(echo "$quota" | jq -r '.UsageMetric.MetricNamespace')
+    metric_name=$(echo "$quota" | jq -r '.UsageMetric.MetricName')
+    stat=$(echo "$quota" | jq -r '.UsageMetric.MetricStatisticRecommendation')
+
+    # Build dimensions as a JSON array
+    dimensions_json=$(echo "$quota" | jq -c '[.UsageMetric.MetricDimensions | to_entries[] | {Name: .key, Value: .value}]')
+
+    # Skip if dimensions are empty
+    if [[ "$dimensions_json" == "[]" || -z "$dimensions_json" ]]; then
+      continue
+    fi
+
+    # Query CloudWatch for metric value
+    value=$(aws cloudwatch get-metric-statistics \
+      --region "$REGION" \
+      --namespace "$namespace" \
+      --metric-name "$metric_name" \
+      --dimensions "$dimensions_json" \
+      --statistics "$stat" \
+      --start-time "$(date -u -d '1 hour ago' +%Y-%m-%dT%H:%M:%SZ)" \
+      --end-time "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+      --period 3600 \
+      --query "Datapoints[0].$stat" \
+      --output text)
+
+    # Only print if value > 0
+    if [[ "$value" != "None" && $(echo "$value > 0" | bc -l) -eq 1 ]]; then
+      echo "Region: $REGION | Service: $service | Quota: $quota_name | Utilization: $value"
+    fi
+  done
+done
